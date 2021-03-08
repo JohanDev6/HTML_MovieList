@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Favorite Films List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <h1> Filmes Favoritos</h1>
+            <p style="color: white; font-family: 'roboto mono light';">Double Click = <span style="color: rgb(248, 105, 105);">Remove Favorite</span></p>
+            <div id='header'>
+            <input id='searchinput' type="text" placeholder="Nome do Filme">
+
+           <div id="search-box">
+            <ul id="searchlist">
+                <!-- List-Itens -->
+            </ul>
+            </div> 
+                
+            </div>
+        </div>
+        <div class="films">
+           <div class="row">
+           </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="index.js"></script>
+</html>
