@@ -54,10 +54,7 @@ SearchInput.addEventListener('input', (ev) => {
                ItensList.removeChild(ItensList.firstChild) 
 
                FavIcon.addEventListener('click', (ev) => {
-
-                var movies = document.querySelectorAll('.info h1')
-
-                   if(Verification(ev.target.parentElement.getAttribute('title'), movies)){
+                   
                var FilmTitle = ev.target.parentElement.getAttribute('title'),
                    FilmImage = `https://image.tmdb.org/t/p/w500${ev.target.parentElement.getAttribute('poster')}`,
                    VoteFilm  = ev.target.parentElement.getAttribute('vote')
@@ -92,9 +89,7 @@ SearchInput.addEventListener('input', (ev) => {
                ListFilms.appendChild(DivCol)
                localStorage.setItem('filmeslist', ListFilms.innerHTML)
 
-            }else{
-               alert('ja está no seus favoritos!')
-            } })
+          })
            }
            
        }).catch((err) => {
@@ -114,14 +109,4 @@ function RemoveFilm(MovieList, Storage){
             localStorage.setItem('filmeslist', Storage.innerHTML)
         })
     });
-}
-
-function Verification(Attr , MovieList){
-    MovieList.forEach((item, index) => {
-        if(item.innerHTML == Attr){
-         return false
-        }else{
-            return true
-        }
-    })
 }
