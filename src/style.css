@@ -178,7 +178,7 @@ body, html{
 #search-box ul{
     list-style: none;
     padding: 15px;
-    border-top: 1px solid black;
+    box-shadow: inset 5px 0px 9px 0px rgba(0, 0, 0, 0.6);
     background-color: white;
     overflow-y: auto;
     width: 72%;
@@ -223,5 +223,6 @@ body, html{
     font-family: 'roboto mono light';
     color: rgb(255, 183, 0);
     margin-left: 9px;
+    margin-right: 9px;
 }
 
