@@ -1,20 +1,41 @@
-# Lista de filmes favoritos responsiva :sparkles:
+<img width='100%' src='https://github.com/JohanDev6/FavoriteFilmsList/blob/main/src/Assests/Fonts/search.png'/>
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/JohanDev6)](https://github.com/JohanDev6)
-[![Visits Badge](https://badges.pufler.dev/visits/JohanDev6/FavoriteFilmsList)](https://badges.pufler.dev)
+# Favorite Movies List
 
-### Sobre o Projeto!
+> Esse Projeto é uma lista de filmes favoritos escolhido pelo usuário usando um campo de texto onde ele pode pesquisar o filme pelo nome e marca como favorito, double click no filme  da lista de favoritos irá remove-lo.
 
->O Projeto é uma lista de filmes favoritos escolhido pelo usuário usando um campo de texto onde ele pode pesquisar o filme pelo nome e marca como favorito, double click no filme  da lista de favoritos irá remove-lo.
- 
-### Recursos Usados
- 
- * Axios
- * Html - Javascript - Css
- * Api [The Movie Db](https://www.themoviedb.org/)
+## Features
 
-## Capturas de Tela :computer:
+- Favorite your movie
+- Realtime search bar
+- Responsividade
 
-<img src="https://github.com/JohanDev6/FavoriteFilmsList/blob/main/src/Assests/Fonts/back.png" />
+## Tools, Techs & Principais Libs
 
-<img src="https://github.com/JohanDev6/FavoriteFilmsList/blob/main/src/Assests/Fonts/search.png" />
+- Html
+- JS Vanilla
+- Api TheMovieDB
+
+## Instalação
+
+```bash
+$ git clone https://github.com/JohanDev6/HTML_MovieList
+$ cd HTML_MovieList
+$ yarn build
+```
+
+## Contribuição
+
+#### Reporte bugs ou Features Request
+
+Porfavor use o [issue tracker](https://github.com/JohanDev6/HTML_MovieList/issues) para reportar bugs ou fazer push requests.
+
+#### Developing
+
+Para PRs use o ambiente de desenvolvimento
+
+```bash
+$ git clone https://github.com/JohanDev6/HTML_MovieList
+$ cd HTML_MovieList
+$ yarn start
+```
