@@ -1,4 +1,4 @@
-<img width='100%' src='https://github.com/JohanDev6/FavoriteFilmsList/blob/main/src/Assests/Fonts/search.png'/>
+<img width='100%' src='https://github.com/JohanDev6/FavoriteFilmsList/blob/main/src/Assests/Fonts/back.png'/>
 
 # Favorite Movies List
 
